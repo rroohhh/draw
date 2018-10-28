@@ -365,13 +365,15 @@ impl Stroke for SimpleStroke {
             in float edgedistance;
 
             void main() {
+/*
                 vec2 pos = gl_PointCoord - 0.5;
                 if (length(pos) > 0.8) {
                     discard;
                 } else {
                     color = vec4(1.0, 0.0, 0.0, 1.0);
                 }
-                // color = vec4(1.0, 0.0, 0.0, mix(0.0, 1.0, 1.0 - abs(edgedistance)));
+*/
+                color = vec4(1.0, 0.0, 0.0, mix(0.0, 1.0, 1.0 - abs(edgedistance)));
             }
         "#;
     	
