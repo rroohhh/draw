@@ -1,0 +1,10 @@
+[package]
+name = "draw"
+version = "0.1.0"
+authors = ["Robin Ole Heinemann <robin.ole.heinemann@t-online.de>"]
+
+[dependencies]
+winit = { version = "*", path = "winit" }
+glium = "*"
+num = "*"
+rand = "*"
