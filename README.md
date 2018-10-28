@@ -9,7 +9,7 @@ points belonging to a stroke are connected with triangle strips and the stroke s
 
 ## goals
 - high performance: using this for normal notetaking no slowdowns should be noticed
-- collaborative: many people should be able to draw together transparently over network
+- collaborative: many people should be able to draw together transparently over network, like etherpad, but for drawing
 - multiplatform: native linux, windows, mac, android and webbrowser support
 - infinite undo / save: don't worry about saving 
 - full featured: all the normal drawing tools are available: curves, straight lines, polygons, layers, markers, rotation, translation
